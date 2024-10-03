@@ -1,10 +1,8 @@
 package rpg;
-
 import rpg.entities.Player;
 import rpg.entities.enemy.Enemy;
 import rpg.entities.enemy.goblins.RookieGoblin;
 import rpg.entities.enemy.slimes.BasicSlime;
-
 import java.util.Random;
 
 
@@ -37,7 +35,7 @@ public class Game {
         }
 
         if (player.isAlive()) {
-            System.out.println(player.getName() + " GANO el que mayor poder tuvo :DDDDDDD");
+            System.out.println(player.getName() + " GANO, tuvo mayor poder");
         } else {
             System.out.println(enemy.getName() + " Gano, Debes ser mas fuerte a la proxima");
         }
