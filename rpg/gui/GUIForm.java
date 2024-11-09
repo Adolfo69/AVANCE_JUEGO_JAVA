@@ -5,6 +5,9 @@ import java.awt.*;
 public class GUIForm extends JFrame implements WindowConstants {
 
     private JPanel mainPanel;
+    private JButton button2;
+    private JButton button3;
+    private JButton button4;
     private JPanel statusBar;
     private JPanel gamePanel;
     private JPanel actionBar;
