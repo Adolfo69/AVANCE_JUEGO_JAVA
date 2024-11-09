@@ -1,10 +1,8 @@
 package rpg.entities.enemy.slimes;
 
+import enums.Stats;
 import rpg.entities.GameCharacter;
 import rpg.entities.enemy.Enemy;
-import rpg.enums.Stats;
-
-
 
 
 public class BasicSlime extends Enemy {

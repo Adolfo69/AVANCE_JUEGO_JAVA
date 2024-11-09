@@ -1,5 +1,6 @@
 package rpg.entities;
-import rpg.enums.Stats;
+import enums.Stats;
+
 import java.util.HashMap;
 
 public class GameCharacter {

@@ -1,11 +1,14 @@
 package rpg.entities.enemy.goblins;
+
 import rpg.entities.GameCharacter;
 import rpg.entities.enemy.Enemy;
-import rpg.enums.Stats;
+import enums.Stats;
+
+
 import java.util.Random;
 
 public class RookieGoblin extends Enemy {
-    public RookieGoblin(String rookieGoblin) {
+    public RookieGoblin() {
         super("Rookie Goblin");
         this.name = "Rookie Goblin";
         this.stats.put(Stats.MAX_HP, 90);
